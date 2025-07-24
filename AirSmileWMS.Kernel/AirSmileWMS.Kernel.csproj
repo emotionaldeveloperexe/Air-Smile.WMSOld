@@ -52,6 +52,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\Db.cs" />
+    <Compile Include="DTOs\CategoryDTO.cs" />
+    <Compile Include="DTOs\DirectionDTO.cs" />
+    <Compile Include="DTOs\GoodArrivalDTO.cs" />
+    <Compile Include="DTOs\GoodDTO.cs" />
+    <Compile Include="DTOs\GoodMoveDTO.cs" />
+    <Compile Include="DTOs\GoodRefundDTO.cs" />
+    <Compile Include="DTOs\GoodSourceDTO.cs" />
+    <Compile Include="DTOs\GoodSupplierDTO.cs" />
+    <Compile Include="DTOs\GoodToBuyDTO.cs" />
+    <Compile Include="DTOs\GoodTrackingDTO.cs" />
+    <Compile Include="DTOs\IDTO.cs" />
+    <Compile Include="DTOs\PackDTO.cs" />
+    <Compile Include="DTOs\PackGoodDTO.cs" />
+    <Compile Include="DTOs\SupplyDTO.cs" />
+    <Compile Include="DTOs\TaskDTO.cs" />
+    <Compile Include="DTOs\TaskToCollectDTO.cs" />
+    <Compile Include="DTOs\TaskToPackDTO.cs" />
+    <Compile Include="DTOs\TaskToSupplyDTO.cs" />
+    <Compile Include="DTOs\TaskUserDTO.cs" />
+    <Compile Include="DTOs\UserDTO.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Direction.cs" />
@@ -88,6 +108,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
