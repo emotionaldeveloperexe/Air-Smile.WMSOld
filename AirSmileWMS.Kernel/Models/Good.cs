@@ -44,6 +44,11 @@ namespace AirSmileWMS.Kernel.Models
         public Amount Count { get; set; }
 
         /// <summary>
+        /// Кол-во в упаковке. Например, в латексе 100 шт, в хроме 50, в фольге 1 и т. д.
+        /// </summary>
+        public Amount CountPerPackage { get; set; }
+
+        /// <summary>
         /// Отслеживание товара. Необязательный параметр.
         /// </summary>
         public virtual GoodTracking Tracking { get; set; }

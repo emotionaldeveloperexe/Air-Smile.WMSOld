@@ -29,5 +29,10 @@
         /// Остаток товара на складе.
         /// </summary>
         public uint Count { get; set; }
+
+        /// <summary>
+        /// Кол-во в упаковке. Например, в латексе 100 шт, в хроме 50, в фольге 1 и т. д.
+        /// </summary>
+        public uint CountPerPackage { get; set; }
     }
 }
