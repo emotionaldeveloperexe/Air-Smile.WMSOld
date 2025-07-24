@@ -87,6 +87,7 @@
     <Compile Include="Models\Supply.cs" />
     <Compile Include="Models\Task.cs" />
     <Compile Include="Models\TaskToCollect.cs" />
+    <Compile Include="Models\TaskToFuture.cs" />
     <Compile Include="Models\TaskToPack.cs" />
     <Compile Include="Models\TaskToSupply.cs" />
     <Compile Include="Models\User.cs" />

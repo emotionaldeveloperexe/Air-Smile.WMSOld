@@ -95,7 +95,12 @@ namespace AirSmileWMS.Kernel.Data
         public DbSet<TaskToSupply> TasksToSupply { get; set; }
 
         /// <summary>
-        /// пользователи.
+        /// Отложенные задания (по наборам).
+        /// </summary>
+        public DbSet<TaskToFuture> TasksToFuture { get; set; }
+
+        /// <summary>
+        /// Пользователи.
         /// </summary>
         public DbSet<User> Users { get; set; }
 
@@ -133,6 +138,11 @@ namespace AirSmileWMS.Kernel.Data
             modelBuilder.Entity<Good>()
                 .HasOptional(g => g.ToBuy)
                 .WithRequired(t => t.Good);
+
+            // Один-к-одному: Pack → TaskToFuture (Pack главный)
+            modelBuilder.Entity<Pack>()
+                .HasOptional(p => p.TaskToFuture)
+                .WithRequired(f => f.Pack);
 
             // Один-к-одному: TaskToSupply → TaskToCollect
             modelBuilder.Entity<TaskToSupply>()

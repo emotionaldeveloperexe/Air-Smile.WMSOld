@@ -57,5 +57,10 @@ namespace AirSmileWMS.Kernel.Models
         /// Задания по набору.
         /// </summary>
         public virtual ICollection<TaskToSupply> TasksToSupply { get; set; }
+
+        /// <summary>
+        /// Отложенное задание по набору (если есть). Необязательный параметр.
+        /// </summary>
+        public virtual TaskToFuture TaskToFuture { get; set; }
     }
 }
