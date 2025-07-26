@@ -6,7 +6,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Действие пользователя в программе.
     /// </summary>
-    public class UserAction
+    public class UserAction : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.
@@ -22,11 +22,6 @@ namespace AirSmileWMS.Kernel.Models
         /// Пользователь, который совершил действие.
         /// </summary>
         public virtual User User { get; set; }
-
-        /// <summary>
-        /// Дата и время действия. Задается автоматически.
-        /// </summary>
-        public DateTime Date { get; set; }
 
         /// <summary>
         /// Описание действия. Задается автоматически.

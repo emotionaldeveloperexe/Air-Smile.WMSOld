@@ -6,7 +6,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Задание на сборку.
     /// </summary>
-    public class TaskToCollect
+    public class TaskToCollect : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.

@@ -6,7 +6,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Поставщик товара.
     /// </summary>
-    public class GoodSupplier
+    public class GoodSupplier : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.

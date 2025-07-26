@@ -6,7 +6,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Категория товара.
     /// </summary>
-    public class Category
+    public class Category : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.

@@ -5,7 +5,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Источник товара.
     /// </summary>
-    public class GoodSource
+    public class GoodSource : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.

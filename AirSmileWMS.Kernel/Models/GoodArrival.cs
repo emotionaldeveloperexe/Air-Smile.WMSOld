@@ -6,7 +6,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Приход товара. Создается по факту прихода.
     /// </summary>
-    public class GoodArrival
+    public class GoodArrival : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.

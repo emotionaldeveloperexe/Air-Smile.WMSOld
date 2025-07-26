@@ -6,7 +6,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Продаваемый набор.
     /// </summary>
-    public class Pack
+    public class Pack : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.

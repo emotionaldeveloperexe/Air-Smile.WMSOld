@@ -7,7 +7,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Отложенное задание.
     /// </summary>
-    public class TaskToFuture
+    public class TaskToFuture : Model
     {
         /// <summary>
         /// Идентификатор набора для EF. Задается автоматически.

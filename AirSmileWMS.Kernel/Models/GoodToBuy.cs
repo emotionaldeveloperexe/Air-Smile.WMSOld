@@ -7,7 +7,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Товар в списке покупок.
     /// </summary>
-    public class GoodToBuy
+    public class GoodToBuy : Model
     {
         /// <summary>
         /// Идентификатор товара для EF. Задается пользователем.

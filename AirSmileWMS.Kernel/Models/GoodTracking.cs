@@ -7,7 +7,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Отслеживание товара. Менеджеры добавляют сюда товар, которому нужно особое внимание.
     /// </summary>
-    public class GoodTracking
+    public class GoodTracking : Model
     {
         /// <summary>
         /// Идентификатор товара для EF. Задается пользователем.

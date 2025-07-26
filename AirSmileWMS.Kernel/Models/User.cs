@@ -6,7 +6,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Пользователь нашей скромной WMS :)
     /// </summary>
-    public class User
+    public class User : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.

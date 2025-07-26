@@ -5,7 +5,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Товар в наборе.
     /// </summary>
-    public class PackGood
+    public class PackGood : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.

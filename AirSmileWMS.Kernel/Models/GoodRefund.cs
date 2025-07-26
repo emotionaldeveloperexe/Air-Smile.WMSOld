@@ -6,7 +6,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Возврат товара.
     /// </summary>
-    public class GoodRefund
+    public class GoodRefund : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.
@@ -32,10 +32,5 @@ namespace AirSmileWMS.Kernel.Models
         /// Описание, что случилось. Задается пользователем.
         /// </summary>
         public Description Description { get; set; }
-
-        /// <summary>
-        /// Дата создания возврата. Задается автоматически.
-        /// </summary>
-        public DateTime Date { get; set; }
     }
 }

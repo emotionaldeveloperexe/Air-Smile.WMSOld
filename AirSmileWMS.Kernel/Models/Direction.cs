@@ -6,7 +6,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Направление (АВБ, ЯВБ, АО, ЯО и т д)
     /// </summary>
-    public class Direction
+    public class Direction : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.

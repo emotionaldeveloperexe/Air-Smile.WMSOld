@@ -6,7 +6,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Задание.
     /// </summary>
-    public class Task
+    public class Task : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.
@@ -27,11 +27,6 @@ namespace AirSmileWMS.Kernel.Models
         /// Исполнитель.
         /// </summary>
         public User User { get; set; }
-
-        /// <summary>
-        /// Дата создания задания. Задается автоматически.
-        /// </summary>
-        public DateTime CreatedAt { get; set; }
 
         /// <summary>
         /// Дата начала работы. Задается пользователем не сразу.

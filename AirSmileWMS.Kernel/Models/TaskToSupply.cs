@@ -7,7 +7,7 @@ namespace AirSmileWMS.Kernel.Models
     /// <summary>
     /// Задание на поставку.
     /// </summary>
-    public class TaskToSupply
+    public class TaskToSupply : Model
     {
         /// <summary>
         /// Идентификатор для EF. Задается автоматически.
@@ -43,11 +43,6 @@ namespace AirSmileWMS.Kernel.Models
         /// Сколько наборов нужно собрать. Задается пользователем.
         /// </summary>
         public Amount Count { get; set; }
-
-        /// <summary>
-        /// Дата создания задания. Задается автоматически.
-        /// </summary>
-        public DateTime CreatedAt { get; set; }
 
         /// <summary>
         /// Сборка задания.
