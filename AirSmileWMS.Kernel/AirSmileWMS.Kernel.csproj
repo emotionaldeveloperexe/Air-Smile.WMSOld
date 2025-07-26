@@ -54,6 +54,7 @@
     <Compile Include="Data\Db.cs" />
     <Compile Include="DTOs\CategoryDTO.cs" />
     <Compile Include="DTOs\DirectionDTO.cs" />
+    <Compile Include="DTOs\DTO.cs" />
     <Compile Include="DTOs\GoodArrivalDTO.cs" />
     <Compile Include="DTOs\GoodDTO.cs" />
     <Compile Include="DTOs\GoodMoveDTO.cs" />
@@ -62,12 +63,14 @@
     <Compile Include="DTOs\GoodSupplierDTO.cs" />
     <Compile Include="DTOs\GoodToBuyDTO.cs" />
     <Compile Include="DTOs\GoodTrackingDTO.cs" />
-    <Compile Include="DTOs\IDTO.cs" />
+    <Compile Include="DTOs\GoodWorkDTO.cs" />
     <Compile Include="DTOs\PackDTO.cs" />
     <Compile Include="DTOs\PackGoodDTO.cs" />
     <Compile Include="DTOs\SupplyDTO.cs" />
     <Compile Include="DTOs\TaskDTO.cs" />
+    <Compile Include="DTOs\TaskForSupplyDTO.cs" />
     <Compile Include="DTOs\TaskToCollectDTO.cs" />
+    <Compile Include="DTOs\TaskToFutureDTO.cs" />
     <Compile Include="DTOs\TaskToPackDTO.cs" />
     <Compile Include="DTOs\TaskToSupplyDTO.cs" />
     <Compile Include="DTOs\TaskUserDTO.cs" />

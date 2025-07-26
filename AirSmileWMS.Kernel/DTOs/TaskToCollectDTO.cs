@@ -3,11 +3,7 @@
     /// <summary>
     /// Объект передачи данных задания на сборку.
     /// </summary>
-    public sealed class TaskToCollectDTO : TaskUserDTO
+    public sealed class TaskToCollectDTO : TaskForSupplyDTO
     {
-        /// <summary>
-        /// Сколько по факту собрано.
-        /// </summary>
-        public uint Count { get; set; }
     }
 }

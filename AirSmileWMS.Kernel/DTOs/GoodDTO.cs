@@ -3,7 +3,7 @@
     /// <summary>
     /// Объект передачи данных товара.
     /// </summary>
-    public sealed class GoodDTO : IDTO
+    public sealed class GoodDTO : DTO
     {
         /// <summary>
         /// Какой категории будет принадлежать товар.

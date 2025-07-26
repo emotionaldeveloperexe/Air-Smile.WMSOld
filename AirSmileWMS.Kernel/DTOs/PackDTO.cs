@@ -3,7 +3,7 @@
     /// <summary>
     /// Объект передачи данных продаваемого набора.
     /// </summary>
-    public sealed class PackDTO : IDTO
+    public sealed class PackDTO : DTO
     {
         /// <summary>
         /// Путь до изображения набора.

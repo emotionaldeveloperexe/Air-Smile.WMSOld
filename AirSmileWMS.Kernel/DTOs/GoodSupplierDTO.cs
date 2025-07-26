@@ -3,7 +3,7 @@
     /// <summary>
     /// Объект передачи данных поставщика товара.
     /// </summary>
-    public sealed class GoodSupplierDTO : IDTO
+    public sealed class GoodSupplierDTO : DTO
     {
         /// <summary>
         /// Наименование поставщика.

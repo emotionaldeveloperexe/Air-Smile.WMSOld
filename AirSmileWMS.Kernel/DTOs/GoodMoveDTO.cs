@@ -3,7 +3,7 @@
     /// <summary>
     /// Объект передачи данных перемещения товара.
     /// </summary>
-    public class GoodMoveDTO : IDTO
+    public abstract class GoodMoveDTO : DTO
     {
         /// <summary>
         /// Какой товар перемещается.

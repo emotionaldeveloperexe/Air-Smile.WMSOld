@@ -25,6 +25,11 @@ namespace AirSmileWMS.Kernel.Models
         public virtual Pack Pack { get; set; }
 
         /// <summary>
+        /// Можно ли сразу сделать меньше наборов, если не будет хватать товара. 
+        /// </summary>
+        public bool IsCanBeLess { get; set; }
+
+        /// <summary>
         /// Идентификатор поставки для EF. Задается пользователем.
         /// </summary>
         public int SupplyId { get; set; }

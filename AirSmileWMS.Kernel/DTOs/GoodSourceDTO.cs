@@ -3,7 +3,7 @@
     /// <summary>
     /// Объект передачи данных источника товара.
     /// </summary>
-    public sealed class GoodSourceDTO : IDTO
+    public sealed class GoodSourceDTO : DTO
     {
         /// <summary>
         /// Какой товар поставляется от источника.

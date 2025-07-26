@@ -3,7 +3,7 @@
     /// <summary>
     /// Объект передачи данных пользователя.
     /// </summary>
-    public sealed class UserDTO : IDTO
+    public sealed class UserDTO : DTO
     {
         /// <summary>
         /// Имя сотрудника.

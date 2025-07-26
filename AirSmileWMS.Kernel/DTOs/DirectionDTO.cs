@@ -3,7 +3,7 @@
     /// <summary>
     /// Объект передачи данных направления.
     /// </summary>
-    public sealed class DirectionDTO : IDTO
+    public sealed class DirectionDTO : DTO
     {
         /// <summary>
         /// Наименование направления.

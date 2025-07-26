@@ -3,13 +3,8 @@
     /// <summary>
     /// Объект передачи данных отслеживания товара.
     /// </summary>
-    public sealed class GoodTrackingDTO : IDTO
+    public sealed class GoodTrackingDTO : GoodWorkDTO
     {
-        /// <summary>
-        /// Какой товар нужно отследить.
-        /// </summary>
-        public int GoodId { get; set; }
-
         /// <summary>
         /// Что конкретно нужно сделать с товаром.
         /// </summary>

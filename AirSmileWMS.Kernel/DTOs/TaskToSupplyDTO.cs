@@ -3,7 +3,7 @@
     /// <summary>
     /// Объект передачи данных задания на поставку.
     /// </summary>
-    public sealed class TaskToSupplyDTO : IDTO
+    public sealed class TaskToSupplyDTO : DTO
     {
         /// <summary>
         /// Какой набор сделать.
@@ -19,5 +19,10 @@
         /// Сколько наборов нужно сделать.
         /// </summary>
         public uint Count { get; set; }
+
+        /// <summary>
+        /// Можно ли сразу сделать меньше наборов, если не будет хватать товара. 
+        /// </summary>
+        public bool IsCanBeLess { get; set; }
     }
 }

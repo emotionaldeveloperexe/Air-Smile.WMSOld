@@ -3,7 +3,7 @@
     /// <summary>
     /// Объект передачи данных товара в наборе.
     /// </summary>
-    public sealed class PackGoodDTO : IDTO
+    public sealed class PackGoodDTO : DTO
     {
         /// <summary>
         /// В каком наборе учавствует товар.

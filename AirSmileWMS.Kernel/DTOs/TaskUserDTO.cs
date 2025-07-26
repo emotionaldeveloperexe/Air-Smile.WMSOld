@@ -5,7 +5,7 @@ namespace AirSmileWMS.Kernel.DTOs
     /// <summary>
     /// Объект передачи данных исполнителя задания.
     /// </summary>
-    public class TaskUserDTO : IDTO
+    public abstract class TaskUserDTO : DTO
     {
         /// <summary>
         /// Исполнитель.

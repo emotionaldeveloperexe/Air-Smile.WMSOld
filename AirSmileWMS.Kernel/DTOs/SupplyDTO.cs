@@ -5,7 +5,7 @@ namespace AirSmileWMS.Kernel.DTOs
     /// <summary>
     /// Объект передачи данных поставки.
     /// </summary>
-    public sealed class SupplyDTO : IDTO
+    public sealed class SupplyDTO : DTO
     {
         /// <summary>
         /// Какое направление поставки.

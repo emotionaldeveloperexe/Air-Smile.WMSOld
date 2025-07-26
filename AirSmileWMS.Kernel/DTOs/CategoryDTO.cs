@@ -3,7 +3,7 @@
     /// <summary>
     /// Объект передачи данных категории.
     /// </summary>
-    public sealed class CategoryDTO : IDTO
+    public sealed class CategoryDTO : DTO
     {
         /// <summary>
         /// Наименование категории.
